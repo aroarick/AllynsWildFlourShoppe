@@ -1,0 +1,256 @@
+body {
+  margin: 10px;
+  padding: 0px;
+  background: #f5f5f5;
+  font-family: "PT Serif", serif;
+}
+
+// Navbar
+
+.navbar.bg-blue {
+  background-color: #f5f5f5;
+  padding-bottom: 5px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 35px;
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+  text-decoration: underline black;
+}
+
+.icons {
+  color: black;
+  margin-top: 7px;
+}
+.navbar-toggler-icon {
+  color: pink;
+}
+// Introduction
+.image {
+  height: 570px;
+  width: 570px;
+}
+
+.title {
+  font-family: "Italianno", cursive;
+  font-size: 50px;
+}
+
+.allyns {
+  margin: 20px 0px 40px 0px;
+}
+
+.breadbutton {
+  background-color: #f5f5f5;
+  border: black 1px solid;
+  border-radius: 0px;
+  color: black;
+  padding: 15px;
+}
+.breadbutton:hover {
+  background-color: black;
+  border: black 1px solid;
+  border-radius: 0px;
+  color: #f5f5f5;
+  padding: 15px;
+}
+.breadbutton:active {
+  background-color: black;
+  border: black 1px solid;
+  border-radius: 0px;
+  color: #f5f5f5;
+  padding: 15px;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+// Shop
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bread-card {
+  background-color: #f5f5f5;
+}
+
+.bread-image,
+.bread-image.smaller {
+  overflow: hidden;
+  padding: 0px;
+  height: 100px;
+}
+.bread-image img {
+  margin-top: -240px;
+}
+
+@media (min-width: 768px) {
+  .bread-image {
+    height: auto;
+  }
+
+  .bread-image.smaller {
+    height: 100px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .bread-image img {
+    margin-top: 00px;
+  }
+}
+
+.bread-image.smaller img {
+  margin-top: -240px;
+}
+
+.bread-type {
+  margin-bottom: 20px;
+  .col {
+    width: 100%;
+    img {
+    }
+  }
+  .col:last-of-type {
+    width: 130px;
+    min-width: 130px;
+    max-width: 130px;
+  }
+  .col:first-of-type {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+  }
+  .bread-title {
+    font-family: "Italianno", cursive;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+  }
+  .description {
+    margin: 0px;
+    font-size: 0.8em;
+  }
+}
+
+.label {
+  padding: 1px 3px 2px;
+  font-size: 9.75px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #bfbfbf;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.label.success {
+  background-color: #f5f5f5;
+  border: black 1px solid;
+  border-radius: 0px;
+  color: black;
+  padding: 15px;
+}
+
+.item a p.new-label span {
+  position: relative;
+  content: "$10";
+}
+.item:hover a p.new-label span {
+  display: none;
+}
+.item:hover a p.new-label:after {
+  content: "Request this bread";
+}
+
+.shop-title {
+  margin-bottom: -10px;
+}
+
+.btn-group > .btn-group:not(:last-child),
+.btn-group > .btn:not(:last-child) {
+  border-right-width: 0px;
+  width: 40px;
+}
+.btn-group > .btn-group:not(:first-child),
+.btn-group > .btn:not(:first-child) {
+  border-left-width: 0px;
+}
+
+button.btn.btn-fancy {
+  padding: 8px;
+  color: #000;
+  background-color: #f5f5f5;
+  border-color: #000;
+  border-radius: 0px;
+}
+
+button.btn.btn-fancy:not(.actionable) {
+  cursor: default;
+}
+
+button.btn.btn-fancy.actionable:hover {
+  padding: 8px;
+  color: #f5f5f5;
+  background-color: #000;
+  border-color: #000;
+  border-radius: 0px;
+}
+
+button.btn.btn-fancy.smallish {
+  font-size: 0.9em;
+}
+
+.hidden {
+  display: none;
+}
+
+.line-seperator {
+  opacity: 0.25;
+}
+
+.line-seperator.top {
+  margin-top: 50px;
+}
+
+.line-seperator.bottom {
+  margin-bottom: 50px;
+}
+
+.order {
+  text-align: center;
+}
+
+.bread-action-button {
+  background-color: #f5f5f5;
+  border: black 1px solid;
+  border-radius: 0px;
+  color: black;
+  padding: 5px;
+  margin-left: 10px;
+}
+.first {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.bread-action-button:hover {
+  background-color: black;
+  border: black 1px solid;
+  border-radius: 0px;
+  color: #f5f5f5;
+}

@@ -1,0 +1,46 @@
+{
+  "breads": [
+    {
+      "title": "Gluten Free Pizza Crust",
+      "image": "/images/shop/pizza-crust.jpg",
+      "description": "Made with a blend of gluten-free flours (including non-GMO/organic corn) for you to take home to finish with your choice of toppings.",
+      "price": 10
+    },
+    {
+      "title": "Seeded Gluten Free Loaf",
+      "image": "/images/shop/gf-seeded.jpg",
+      "description": "Contains non-GMO CORN starch. Made in a kitchen that uses wheat flour.",
+      "price": 9
+    },
+    {
+      "title": "Cinnamon Raisin Bread",
+      "image": "/images/shop/cinnamon-raisin.jpg",
+      "description": "Honey White bread filled with cinnamon and raisins. Dairy free.",
+      "price": 8
+    },
+    {
+      "title": "Whole Wheat Bread",
+      "image": "/images/shop/whole-wheat.jpg",
+      "description": "A blend of whole-wheat flours for a wholesome, wholegrain taste.",
+      "price": 8
+    },
+    {
+      "title": "Spelt-Oat Bread",
+      "image": "/images/shop/spelt-oat.jpg",
+      "description": "Sprouted Spelt mixed with oat, and white flours, with a touch of raw honey.",
+      "price": 6
+    },
+    {
+      "title": "Honey White Bread",
+      "image": "/images/shop/honey-white.jpg",
+      "description": "White bread made with a blend of flours, including a heritage whole grain, and Kamut. Local raw honey gives the crumb a lovely soft texture.",
+      "price": 6
+    },
+    {
+      "title": "Whole Grain Harvest Bread",
+      "image": "/images/shop/whole-grain-harvest.jpg",
+      "description": "Multi grains, whole grains, and seeds. Made with whole wheat, heritage, rye, Kamut, and white flours, blended with a mix of toasted whole grains, and seeds (chia, flax, and sesame). Full of flavor.",
+      "price": 7
+    }
+  ]
+}
